@@ -1,0 +1,52 @@
+.banner .swiper {
+    width: 240px;
+    height: 320px;
+    z-index: 0;
+}
+
+.banner .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    /* border: rgb(255, 251, 0) 1px solid; */
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.banner .swiper-slide:nth-child(1n) {
+    background-image: url('../../assets/BannerBooks/40961427.jpg');
+
+    
+}
+
+.banner .swiper-slide:nth-child(2n) {
+    background-image: url('../../assets/BannerBooks/1774836.jpg');
+
+    
+}
+
+.banner .swiper-slide:nth-child(3n) {
+    background-image: url('../../assets/BannerBooks/175248.jpg');
+    aspect-ratio: 16/9;
+}
+
+.banner .swiper-slide:nth-child(4n) {
+    background-image: url('../../assets/BannerBooks/19301931.jpg');
+}
+
+.banner .swiper-slide:nth-child(5n) {
+    background-image: url('../../assets/BannerBooks/5.jpg');
+}
+
+.banner .swiper-slide:nth-child(6n) {
+    background-image: url('../../assets/BannerBooks/61215351.jpg');
+}
+
+.banner .swiper-slide:nth-child(7n) {
+    background-image: url('../../assets/BannerBooks/65916344.jpg');
+}
