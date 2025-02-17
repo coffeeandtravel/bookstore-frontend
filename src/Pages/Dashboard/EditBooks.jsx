@@ -71,7 +71,7 @@ const EditBooks = () => {
       return res.json();
     })
     .then(data =>{
-      alert("Book Updated Successfully!");
+      alert("Book Updated Successfully!",data);
     })
     .catch(error=>{
       console.error(error);

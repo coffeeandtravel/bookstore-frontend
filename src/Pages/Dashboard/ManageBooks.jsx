@@ -18,7 +18,7 @@ const ManageBooks = () => {
 
   const handleDelete = (id) => {
     // setOpenModal(false);
-    console.log(id);
+    // console.log(id);
     setBookToDelete(null);
 
     fetch(`http://localhost:3000/books/book/${id}`,{

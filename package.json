@@ -1,7 +1,8 @@
 {
   "name": "frontend",
   "private": true,
-  "homepage": "https://coffeeandtravel.github.io/bookstore-frontend/",
+  "homepage": "/",
+  "proxy": "http://localhost:3000",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
